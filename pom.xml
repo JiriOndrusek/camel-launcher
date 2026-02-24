@@ -24,11 +24,11 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jbang-parent</artifactId>
-        <version>4.14.4.redhat-00001</version>
+        <version>4.18.0.redhat-00001</version>
     </parent>
 
     <artifactId>camel-launcher</artifactId>
-    <version>4.14.4-SNAPSHOT</version>
+    <version>4.18.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Camel :: Launcher</name>
@@ -42,20 +42,25 @@
 
         <!-- Launcher configuration properties -->
         <quarkus.version>3.27.0.redhat-00002</quarkus.version>
-        <camel-version>4.14.4.redhat-00001</camel-version>
-        <camel-community-version>4.14.4</camel-community-version>
-        <camel-kamelets-version>4.14.4.redhat-00001</camel-kamelets-version>
-        <camel-spring-boot-version>4.14.4.redhat-00001</camel-spring-boot-version>
+        <camel-version>4.18.0.redhat-00001</camel-version>
+        <camel-community-version>4.18.0</camel-community-version>
+        <camel-kamelets-version>4.18.0.redhat-00001</camel-kamelets-version>
+        <camel-spring-boot-version>4.18.0.redhat-00001</camel-spring-boot-version>
         <maven.repos>central=https://repo1.maven.org/maven2,redhat.ga=https://maven.repository.redhat.com/ga/</maven.repos>
 
         <!-- Dependency versions -->
-        <maven-version>3.9.11</maven-version>
-        <maven-resolver-version>1.9.24</maven-resolver-version>
+        <maven-version>3.9.12</maven-version>
+        <maven-resolver-version>1.9.25</maven-resolver-version>
         <plexus-interpolation-version>1.28</plexus-interpolation-version>
+        <plexus-utils-version>4.0.2</plexus-utils-version>
+        <plexus-xml-version>3.0.1</plexus-xml-version>
         <plexus-sec-dispatcher-version>2.0</plexus-sec-dispatcher-version>
         <plexus-cipher-version>2.1.0</plexus-cipher-version>
-        <eclipse-sisu-version>0.9.0.M4</eclipse-sisu-version>
+        <eclipse-sisu-version>1.0.0</eclipse-sisu-version>
         <javax-inject-version>1</javax-inject-version>
+        <httpclient-version>4.5.14</httpclient-version>
+        <httpcore-version>4.4.16</httpcore-version>
+        <commons-codec-version>1.21.0</commons-codec-version>
         <jcl-over-slf4j-version>1.7.36</jcl-over-slf4j-version>
     </properties>
 
